@@ -1,0 +1,29 @@
+<template>
+  <div id="app">
+    <Count></Count>
+    <hr />
+    <Person></Person>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+</template>
+
+<script>
+import Count from "./components/Count.vue";
+import Person from './components/Person.vue';
+export default {
+  name: "App",
+  components: { Count, Person },
+  mounted() {
+    ''
+  },
+  data() {
+    return {}
+  },
+  methods: {},
+};
+</script>
+
+<style>
+</style>
